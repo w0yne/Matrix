@@ -24,6 +24,4 @@ proguard/
 
 # Idea IDE files
 .idea/*
-
-!.idea/copyright/
 *.iml
