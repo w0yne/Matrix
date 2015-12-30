@@ -1,0 +1,25 @@
+ext {
+    // Dependencies Versions
+    androidSupportLibVersion = "23.1.0"
+    daggerVersion = "2.0.2"
+    daggerCompilerVersion = "2.0.2"
+    javaxAnnotationVersion = "1.0"
+    rxAndroidVersion = "1.0.1"
+    rxJavaVersion = "1.0.16"
+
+    // Test Dependencies Versions
+    junitVersion = "4.12"
+
+    appDependencies = [
+            appcompact     : "com.android.support:appcompat-v7:${androidSupportLibVersion}",
+            dagger         : "com.google.dagger:dagger:${daggerVersion}",
+            daggerCompiler : "com.google.dagger:dagger-compiler:${daggerCompilerVersion}",
+            javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            rxAndroid      : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            rxJava         : "io.reactivex:rxjava:${rxJavaVersion}",
+    ]
+
+    testDependencies = [
+            junit: "junit:junit:${junitVersion}",
+    ]
+}
